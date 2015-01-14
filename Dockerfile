@@ -18,7 +18,7 @@ RUN cd /usr/src/opendchub && ./configure --prefix /usr && make && make install
 ADD start.sh /start.sh
 RUN chmod +x /start.sh
 
-EXPOSE 411
+EXPOSE [411, 53696]
 
 WORKDIR /root
 
