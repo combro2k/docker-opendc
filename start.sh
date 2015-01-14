@@ -1,3 +1,3 @@
 #!/bin/bash
 
-tail -f /dev/null
+/usr/bin/opendchub -d -w /data
